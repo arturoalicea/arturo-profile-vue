@@ -29,7 +29,7 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 export default class Contact extends Vue {}
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .icon {
   height: auto;
   width: 5%;
@@ -48,6 +48,14 @@ export default class Contact extends Vue {}
 }
 
 div {
-  font-size: 1.2vw;
+  font-size: 16px;
+
+  @media (max-width: 900px) {
+    font-size: 14px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 10px;
+  }
 }
 </style>
