@@ -54,7 +54,7 @@ div {
     font-size: 14px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     font-size: 10px;
   }
 }

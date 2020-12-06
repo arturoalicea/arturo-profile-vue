@@ -34,7 +34,12 @@ export default {
   transform: translate(-50%, -50%);
 
   @media (max-width: 900px) {
-    width: 70%;
+    width: 75%;
+    height: auto;
+  }
+
+  @media (max-height: 600px) {
+    width: 48%;
     height: auto;
   }
 }
@@ -55,7 +60,7 @@ h1 {
     font-size: 36px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     font-size: 32px;
     letter-spacing: 0;
     line-height: 0px;
@@ -69,7 +74,7 @@ p {
     font-size: 16px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     font-size: 14px;
     letter-spacing: 0;
   }
