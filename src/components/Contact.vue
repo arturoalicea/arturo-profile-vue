@@ -2,7 +2,7 @@
   <div>
     <div class="left">
       <img src="@/assets/address.jpeg" alt="Address Icon" class="icon" />
-      150 Union Avenue Brooklyn, N.Y. 11206
+      Brooklyn, N.Y. 11206
     </div>
     <div class="left">
       <img src="@/assets/email.webp" alt="Email Icon" class="icon" />
@@ -12,7 +12,7 @@
       <img src="@/assets/phone.png" alt="Phone Icon" class="icon" />
       787-376-2563
       <a
-        href="https://www.linkedin.com/in/arturo-alicea-a97a2615b/"
+        href="https://www.linkedin.com/in/arturo-alicea/"
         target="_blank"
         rel="noopener noreferrer"
       >
